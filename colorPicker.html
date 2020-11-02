@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>color picker slider</title>
+    <link type="text/css" rel="stylesheet" href="colorPicker.css" />
+  </head>
+  <body>
+    <div class="header">Web site header</div>
+
+    <!-- <input type="text"> 
+        <button>submit</button> -->
+
+    <div class="body-space">
+      <div class="left-panel">Website left panel</div>
+
+      <div class="right-panel">
+        <input
+          class="color-range-red"
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+        />
+        <input
+          class="color-range-green"
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+        />
+        <input
+          class="color-range-blue"
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+        />
+
+        <h3>
+          If you want to choose your color number , please write it down :)
+        </h3>
+        <p>Red</p>
+        <input
+          id="red-value"
+          type="number"
+          min="0"
+          max="255"
+          placeholder="type the number"
+        />
+        <p>Green</p>
+        <input
+          id="green-value"
+          type="number"
+          min="0"
+          max="255"
+          placeholder="type the number"
+        />
+        <p>Blue</p>
+        <input
+          id="blue-value"
+          type="number"
+          min="0"
+          max="255"
+          placeholder="type the number"
+        />
+
+        <button>Select your Color</button>
+      </div>
+    </div>
+
+    <div class="footer">website footer</div>
+
+    <script src="colorPicker.js"></script>
+  </body>
+</html>
